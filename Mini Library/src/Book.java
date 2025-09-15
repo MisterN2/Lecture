@@ -114,7 +114,7 @@ class Librarian {
         this.name = name;
     }
 
-    // Перевантаження методів
+    
     public void registerBook(String title) {
         System.out.println(name + " registered a new book with title: " + title);
         Library.addAction(name + " registered a new book with title: " + title);
